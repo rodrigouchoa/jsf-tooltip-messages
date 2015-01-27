@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<facelet-taglib version="2.0"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibary_2_0.xsd">
+	
+	<namespace>http://rodrigouchoa.com/jsf</namespace>
+	
+	<tag>
+		<tag-name>tooltipMessages</tag-name>
+		<component>
+			<component-type>com.rodrigouchoa.tooltip.messages.TooltipMessages</component-type>
+			<renderer-type>com.rodrigouchoa.tooltip.messages.TooltipMessagesRenderer</renderer-type>
+		</component>
+		 <attribute>
+			<description>Component id</description>
+			<name>id</name>
+			<required>false</required>
+			<type>java.lang.String</type>
+		</attribute>
+		<display-name>tooltipMessages</display-name>
+	</tag>
+</facelet-taglib>
